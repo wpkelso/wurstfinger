@@ -728,6 +728,7 @@ extension LanguageDefinitions {
         arabic,
         croatian,
         english,
+        englishThumbkey,
         estonianFinnish,
         finnish,
         french,
