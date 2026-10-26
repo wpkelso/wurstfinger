@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4275118D2EAAF62000C5635A /* Build configuration list for PBXProject "Wurstfinger" */;
+			buildConfigurationList = 4275118D2EAAF62000C5635A /* Build configuration list for PBXProject "wurstfinger" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -734,7 +734,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4275118D2EAAF62000C5635A /* Build configuration list for PBXProject "Wurstfinger" */ = {
+		4275118D2EAAF62000C5635A /* Build configuration list for PBXProject "wurstfinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				427511B12EAAF62100C5635A /* Debug */,

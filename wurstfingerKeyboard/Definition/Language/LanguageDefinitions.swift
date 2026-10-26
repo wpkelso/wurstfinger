@@ -81,6 +81,41 @@ enum LanguageDefinitions {
             ]
         )
     }
+    
+    // MARK: - English (Thumbkey)
+    
+    static let englishThumbkey = LanguageDescriptor(
+        id: "en_THUMB",
+        title: "English (Thumbkey)",
+        localeIdentifier: "en_US"
+    ) { meta in
+        GridKeyboardFactory.layout(
+            id: meta.id,
+            title: meta.title,
+            localeIdentifier: meta.localeIdentifier,
+            centerCharacters: [
+                ["s", "r", "o"],
+                ["n", "h", "a"],
+                ["t", "i", "e"],
+            ],
+            directionalOverrides: [
+                GridSlot.topLeft: [.swipeDownRight: "w"],
+                GridSlot.topCenter: [.swipeDown: "g"],
+                GridSlot.topRight: [.swipeDownLeft: "u"],
+                GridSlot.midLeft: [.swipeRight: "m"],
+                GridSlot.center: [
+                    .swipeUpLeft: "j", .swipeUp: "q", .swipeUpRight: "b",
+                    .swipeRight: "p", .swipeDownRight: "y", .swipeDown: "x",
+                    .swipeDownLeft: "v", .swipeLeft: "k",
+                ],
+                GridSlot.midRight: [.swipeLeft: "l"],
+                GridSlot.bottomLeft: [.swipeUpRight: "c"],
+                GridSlot.bottomCenter: [.swipeUp: "f", .swipeRight: "z"],
+                GridSlot.bottomRight: [.swipeUpLeft: "d"],
+            ]
+        )
+    
+    }
 
     // MARK: - Estonian-Finnish
 
